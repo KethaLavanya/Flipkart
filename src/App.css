@@ -70,6 +70,8 @@ p {
   height: 23px;
   margin-bottom: 12px;
   outline: none;
+  border: 1px solid black;
+  border-radius: 5px;
 }
 .inputFieldBlock {
   width: 72%;
@@ -80,6 +82,8 @@ p {
   height: 23px;
   margin-bottom: 5px;
   outline: none;
+  border: 1px solid black;
+  border-radius: 5px;
 }
 .inputFieldBlock label {
   display: block;
@@ -123,4 +127,232 @@ p {
   padding: 7px 20px;
   margin: 12px 0px;
   text-align: center;
+}
+.continueBlock button img {
+  width: 12px;
+  /* height: 12px; */
+  position: relative;
+  left: -2px;
+  top: 1px;
+}
+.mainBlock {
+  background-color: #eaebed;
+  color: #006989;
+  padding: 5px 0px;
+}
+.subBlock {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.photoBlock {
+}
+.photoBlock img {
+}
+.searchBar {
+  width: 69%;
+  height: 23px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid grey;
+  border-radius: 20px;
+  padding: 7px 3px 7px 12px;
+  background: white;
+}
+.searchBar input {
+  width: 100%;
+  border: none;
+  outline: none;
+  background-color: none;
+  padding: 3px 7px;
+}
+.searchBar i {
+  background: blue;
+  color: white;
+  padding: 7px;
+  border-radius: 20px;
+}
+.buttonBtn {
+  display: flex;
+  gap: 20px;
+}
+.buttonBtn button {
+  background: white;
+  color: black;
+  border: 1px solid grey;
+  border-radius: 20px;
+  margin: 0px;
+}
+.categoriesBlock {
+}
+.shoppingBlock {
+  width: 43%;
+  display: flex;
+  justify-content: space-between;
+}
+.shoppingBlock select {
+  border: 1px solid gray;
+  padding: 10px 15px;
+  border-radius: 18px;
+}
+.navList {
+}
+.navList ul {
+  display: flex;
+  justify-content: space-evenly;
+  list-style-type: none;
+  font-weight: 600;
+}
+.navList ul li {
+}
+.imgImage {
+  width: 90%;
+  height: 500px;
+}
+.imageImg {
+  width: 100%;
+}
+.imageImg img {
+  width: 100%;
+  height: 500px;
+}
+.imageDocument {
+  padding: 10px;
+  background-color: #0f4c5c;
+  border-radius: 7px;
+}
+.imageColor {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.imageDiv {
+  width: 19%;
+  background-color: white;
+  padding: 3px;
+  border-radius: 7px;
+}
+.imageDiv img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 7px;
+}
+.imageDiv .dealsBlock {
+  margin: 4px 12px;
+  text-align: start;
+  font-size: 11px;
+  color: grey;
+}
+.imageDiv .offerBlock {
+  margin: 2px 12px 0px;
+  text-align: start;
+  font-size: 15px;
+}
+.dataBlock {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 30px 40px 20px;
+}
+.paragraphBlock {
+}
+.paragraphBlock p {
+  font-size: 20px;
+  margin: 0px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: #111;
+}
+.paragraphBlockOne {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.paragraphBlockOne p {
+  margin: 0px;
+  font-size: 18px;
+  color: #555;
+}
+.paragraphBlockOne::before,
+.paragraphBlockOne::after {
+  content: "";
+  width: 70px;
+  height: 2px;
+  background: #ff4db8;
+  display: block;
+}
+.buttonDataBlock {
+}
+.buttonDataBlock button {
+  background: none;
+  color: black;
+  border: 2px solid #ff4db8;
+  background-color: white;
+  color: #ff4db8;
+  border-radius: 30px;
+  font-weight: 600;
+  margin: 0px;
+  padding: 12px 28px;
+}
+.buttonDataBlock button:hover {
+  background-color: #ff4db8;
+  color: white;
+}
+.logoBlock {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 40px;
+}
+.contentBlock {
+  width: 130px;
+  text-align: center;
+}
+.imageDataBlock {
+  width: 100px;
+  height: 100px;
+  border: 2px dashed #f7b4d9;
+  border-radius: 50%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+}
+.imageDataBlock img {
+  width: 55px;
+  height: 55px;
+  object-fit: contain;
+}
+.contentBlock .brandName {
+  font-size: 20px;
+  margin-top: 16px;
+  font-weight: 700;
+  color: #111;
+}
+.contentBlock .brandContent {
+  font-size: 14px;
+  color: #666;
+  margin-top: 4px;
+}
+.menDiv {
+  display: flex;
+  justify-content: space-between;
+}
+.menFirstBlock img {
+  border-radius: 14px;
+  background-color: #f6b5b5;
+  width: 204px;
+  padding: 5px;
+  height: 250px;
+  object-fit: cover;
+}
+.menFirstBlock {
+  width: 17%;
+}
+.menFirstBlock h4 {
+  text-align: center;
+  margin: 0px;
 }
