@@ -1,67 +1,43 @@
 import React from "react";
-// import Model from "../component/Model";
-import imagePhoto from "../assets/images/flipkart_icon.png";
-// import Modelpage from "../pages/Modelpage";
-const Header = () => {
+import myImage from "../assets/images/JBL Headphones.jpg";
+import myImageImage from "../assets/images/mens products.jpg";
+import myImageBlock from "../assets/images/Bridal Saree 2025.jpg";
+import myImageData from "../assets/images/kidswear.jpg";
+import myImageStore from "../assets/images/skin care .jpg";
+const Products = () => {
   return (
     <>
-      <div className="mainBlock">
-        <div className="subBlock">
-          <div className="photoBlock">
-            <img src={imagePhoto} alt="" width={40} />
+      <div className="imageDocument">
+        <div className="imageColor">
+          <div className="imageDiv">
+            <img src={myImageImage} alt="" />
+            <p className="dealsBlock">Top Deals</p>
+            <p className="offerBlock">Upto 25%</p>
           </div>
-          <div className="shoppingBlock">
-            <select name="" id="">
-              <option value="">Categories</option>
-              <option value=""></option>
-              <option value=""></option>
-              <option value=""></option>
-              <option value=""></option>
-              <option value=""></option>
-              <option value=""></option>
-              <option value=""></option>
-            </select>
-            <div className="searchBar">
-              <input type="search" placeholder="Search products..." />
-              <i class="ri-search-line"></i>
-            </div>
-            {/* <ul>
-              <li>
-                list
-                <ul>
-                  <li>hello</li>
-                </ul>
-              </li>
-            </ul> */}
+          <div className="imageDiv">
+            <img src={myImageBlock} alt="" />
+            <p className="dealsBlock">Widest Range</p>
+            <p className="offerBlock">Top Rated</p>
           </div>
 
-          <div className="buttonBtn">
-            <button>
-              <i class="ri-user-3-line"></i> Login
-            </button>
-
-            <button>
-              <i class="ri-heart-3-line"></i> Wishlist
-            </button>
-            <button>
-              <i class="ri-shopping-cart-line"></i> Cart
-            </button>
+          <div className="imageDiv">
+            <img src={myImageData} alt="" />
+            <p className="dealsBlock">Special Offers</p>
+            <p className="offerBlock">Min. 80% OFF</p>
           </div>
-        </div>
-        <div className="navList">
-          <ul>
-            <li>Home</li>
-            <li>Categories</li>
-            <li>New Arrivals</li>
-            <li>Best Sellers</li>
-            <li>Today's Deals</li>
-            <li>Brands</li>
-            <li>Blog</li>
-            <li>Contact Us</li>
-          </ul>
+          <div className="imageDiv">
+            <img src={myImage} alt="" />
+            <p className="dealsBlock">Limited Time Deal</p>
+            <p className="offerBlock">Flat 80% OFF</p>
+          </div>
+          <div className="imageDiv">
+            <img src={myImageStore} alt="" />
+            <p className="dealsBlock">Trusted Body Care</p>
+            <p className="offerBlock">Up to 50% OFF</p>
+          </div>
         </div>
       </div>
     </>
   );
 };
-export default Header;
+export default Products;
